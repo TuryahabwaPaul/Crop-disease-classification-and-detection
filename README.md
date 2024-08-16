@@ -1,8 +1,11 @@
+
+
 ---
 
 # 🍫 Cocoa Detection & Classification Models
 
 This project covers two primary tasks: detecting cocoa readiness in images using **YOLOv8** and classifying those images with **EfficientNetB0**. Both models aim to aid in cocoa farming by providing actionable insights into the maturity of cocoa crops.
+
 
 ---
 
@@ -107,3 +110,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 🌿 **Fine-tune your models, and let's help farmers predict the readiness of cocoa crops with the power of AI!**
 
 ---
+
