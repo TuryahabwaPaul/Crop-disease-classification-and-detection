@@ -14,8 +14,8 @@ This project covers two primary tasks: detecting cocoa readiness in images using
 ### 🍃 Task 1: Cocoa Detection with YOLOv8
 We use the **YOLOv8 object detection model** to predict cocoa readiness by detecting objects in images. This notebook demonstrates how to train and fine-tune the model for optimal performance.
 
-### 🧠 Task 2: Cocoa Classification with EfficientNetB0
-To classify the detected cocoa pods into different stages of readiness, we fine-tuned **EfficientNetB0**, a lightweight yet powerful convolutional neural network, optimized for mobile deployment.
+### 🧠 Task 2: Maize disease Classification with EfficientNetB0
+To classify the maize leaves into different stages of readiness, we fine-tuned **EfficientNetB0**, a lightweight yet powerful convolutional neural network, optimized for mobile deployment.
 
 ---
 
@@ -33,7 +33,7 @@ To classify the detected cocoa pods into different stages of readiness, we fine-
 4. **Evaluation**: Measure the performance of the trained model and visualize results.
 5. **Fine-Tuning (Optional)**: Adjust hyperparameters such as learning rate and batch size to enhance model performance.
 
-### 🌿 EfficientNetB0 Cocoa Classification
+### 🌿 EfficientNetB0 Maize Classification
 
 1. **Exploratory Data Analysis (EDA)**: Analyze the distribution and balance of the dataset. Visualize sample images to understand the data better.
 2. **Model Selection**:
@@ -54,7 +54,7 @@ To classify the detected cocoa pods into different stages of readiness, we fine-
   - Epochs: 100+
   - Batch size: 16
   - Input size: 640x640 pixels
-- **EfficientNetB0 Cocoa Classification**:
+- **EfficientNetB0 Maize Classification**:
   - Image size: 448x448
   - Batch size: 32
   - Layers fine-tuned: 118
